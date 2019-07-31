@@ -1,0 +1,44 @@
+<view class="mcontainer">
+    <form bindsubmit='forSubmit'>
+      <view class="item">
+          
+        <view class="login-item">
+                
+          <view class="login-item-info">姓名</view>
+                
+          <view><input name='username' bindinput='usernameInput'/></view>
+          
+        </view>
+          
+        <view class="login-item">
+                
+          <view class="login-item-info">学号</view>
+                
+          <view class="login-pwd">
+                
+                
+            <input name='password' style="flex-grow:1" password="true"/> 
+                
+            <text> 忘记密码 </text>
+          </view>    
+                
+        </view>
+		<view class="login-item bottom">      
+		<button class="login-btn" form-type='submit'>登录</button>  
+	</view>
+		<view class="item bottom-info">
+  
+    <view> 没有账户? 
+		<text class='re' bindtap='sregister'> 注册 </text> 
+		</view>
+       
+		<view class="wechat-icon">  
+		</view>
+    
+	</view>
+
+  </view>
+
+</form>
+
+</view>

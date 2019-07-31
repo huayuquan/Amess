@@ -1,0 +1,18 @@
+<view>
+        <button bindtap='add'>查找班级</button>
+
+        <view class='ban'>
+          <text>我的班级</text>
+        </view>
+
+        <view class='main' wx:for="{{show}}" wx:for-index='x'>
+          <view class='row' bindtap='click' data-id='{{x}}'>
+            <view class='im'>
+              <image src="../../image/s.png"></image>
+            </view>
+            <view class='text'>
+              {{item}}
+            </view>
+          </view>
+        </view>
+</view>

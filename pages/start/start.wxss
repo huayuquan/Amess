@@ -1,0 +1,12 @@
+/* pages/start/start.wxss */
+.ts{
+  margin-top: 60%
+}
+.s{
+  margin-top: 50px;
+}
+page{
+  background-position:center;
+  background-size:200% 50%;
+  background-image: url('http://c2.hoopchina.com.cn/uploads/star/event/images/160424/31f9f219e77158d56657b18f7fe3a3c14477d15d.jpg'); 
+}

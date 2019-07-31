@@ -1,0 +1,15 @@
+/* pages/homeworktype/homeworktype.wxss */
+.title{
+  border: 1px solid #1E90FF;
+}
+label{
+  border: 1px solid #6A5ACD;
+}
+.section__title{
+  display:flex;
+  flex-direction:column;
+}
+radio-group{
+  display:flex;
+  flex-direction:column;
+}

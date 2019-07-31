@@ -1,0 +1,13 @@
+<view class="mcontainer">
+    <view class='ts'>
+        <view >    
+          <button class='t' bindtap='tc' type='warn'>教师端</button> 
+        </view>
+        <view>
+          <button class='s' bindtap='sc' type='warn'>学生端</button>
+        </view>
+        <view>
+          <button class='s' bindtap='cc' type='warn'>管理端</button>
+        </view>
+    </view>    
+</view>

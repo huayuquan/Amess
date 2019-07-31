@@ -1,0 +1,17 @@
+<view>
+        <view class='ban'>
+          <text>申请学生</text>
+        </view>
+
+        <view class='main' wx:for="{{show}}" wx:for-index='x'>
+          <view class='row' bindtap='click' data-id='{{x}}'>
+            <view class='im'>
+              <image src="../../images/qiaomen.png"></image>
+            </view>
+            <view class='text'>
+              {{item}}
+            </view>
+          </view>
+        </view>
+
+</view>

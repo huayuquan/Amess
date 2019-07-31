@@ -1,0 +1,54 @@
+<view class="mcontainer">
+    <form bindsubmit='forSubmit'>
+      <view class="item">
+          
+        <view class="login-item">
+                
+          <view class="login-item-info">电话</view>
+                
+          <view><input name='tel' bindinput='usernameInput'/></view>
+          
+        </view>
+          
+        <view class="login-item">
+                
+          <view class="login-item-info">性别</view>
+                
+          <view class="login-pwd">
+                
+            <input name='sex' style="flex-grow:1"/> 
+                
+          </view>    
+                
+        </view>
+        <view class="login-item">
+                
+          <view class="login-item-info">个签</view>
+                
+          <view class="login-pwd">
+                
+            <input name='written' style="flex-grow:1"/> 
+                
+          </view>    
+                
+        </view>
+
+		<view class="login-item bottom">
+            
+		<button class="login-btn" form-type='submit'>提交</button>
+       
+		</view>
+
+    
+		<view class="item bottom-info">
+       
+		<view class="wechat-icon">  
+		</view>
+    
+	</view>
+
+  </view>
+
+</form>
+
+</view>

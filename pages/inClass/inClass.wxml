@@ -1,0 +1,37 @@
+<view class="mcontainer">
+    <view class='row' bindtap='classin'>
+      <view class='im'>
+        <image src="../../images/seat.png"></image>
+      </view>
+      <view class='text'>
+        座位信息
+      </view>
+    </view>
+
+    <view class='row' bindtap='paper'>
+      <view class='im'>
+        <image src="../../images/paper.png"></image>
+      </view>
+      <view class='text'>
+        发布试卷
+      </view>
+    </view>
+
+    <view class='row' bindtap='join'>
+      <view class='im'>
+        <image src="../../images/laile.png"></image>
+      </view>
+      <view class='text'>
+        学生申请
+      </view>
+    </view>
+
+    <view class='row' bindtap='here'>
+      <view class='im'>
+        <image src="../../images/here.png"></image>
+      </view>
+      <view class='text'>
+        签到信息
+      </view>
+    </view>   
+</view>

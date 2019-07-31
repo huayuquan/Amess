@@ -1,0 +1,18 @@
+<view>
+       <view class='ban'>
+          <text>我的成员</text>
+        </view>
+
+        <button bindtap='add'>添加新成员</button>
+
+        <view class='main' wx:for="{{teacher}}" wx:for-index='x'>
+          <view class='row'>
+            <view class='im'>
+              <image src="../../image/s.png"></image>
+            </view>
+            <view class='text'>
+              {{item}}
+            </view>
+          </view>
+        </view>
+</view>

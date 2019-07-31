@@ -1,0 +1,17 @@
+<button bindtap='getP'>Get</button>
+<view class='title'>题目标签：{{array[0]}}</view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section section_gap">
+    <view class="section__title">{{array[1]}}</view>
+    <radio-group name="radio-group1">
+      <label><radio value="A"/>A {{array[2]}}</label>
+      <label><radio value="B"/>B {{array[3]}}</label>
+      <label><radio value="C"/>C {{array[4]}}</label>
+      <label><radio value="D"/>D {{array[5]}}</label>   
+    </radio-group>
+  </view>
+  <view class="btn-area">
+    <button formType="submit" type='primary'>Submit</button>
+    <button formType="reset" type='waring'>Reset</button>
+  </view>
+</form>

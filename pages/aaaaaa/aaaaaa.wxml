@@ -1,0 +1,10 @@
+<view class='main'>
+    <view class='row'>
+        <view class='im'>
+          <image src="../../image/s.png"></image>
+        </view>
+        <view class='text'>
+          这是文本
+        </view>
+    </view>
+</view>

@@ -1,0 +1,41 @@
+<view class="mcontainer">
+    <form bindsubmit='forSubmit'>
+      <view class="item">
+          
+        <view class="login-item">
+                
+          <view class="login-item-info">姓名</view>
+                
+          <view><input name='username' bindinput='usernameInput'/></view>
+          
+        </view>
+          
+        <view class="login-item">
+                
+          <view class="login-item-info">工号</view>
+                
+          <view class="login-pwd">
+            <input name='password' style="flex-grow:1" password="true"/> 
+          </view>    
+                
+        </view>
+
+		<view class="login-item bottom">
+            
+		<button class="login-btn" form-type='submit'>加入</button>
+       
+		</view>
+
+    
+		<view class="item bottom-info">
+       
+		<view class="wechat-icon">  
+		</view>
+    
+	</view>
+
+  </view>
+
+</form>
+
+</view>

@@ -1,0 +1,6 @@
+<view class='first'>
+    <view class='second'>
+        <button type="warn" size="default" plain="false" bindtap='chooseImg'>图片</button>
+        <button type='warn' bindtap='call'>拨号</button>
+    </view>
+</view>

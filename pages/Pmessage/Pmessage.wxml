@@ -1,0 +1,24 @@
+<!--pages/Pmessage/Pmessage.wxml-->
+
+<view class="personalWrap">
+
+    <view class="personalMe" >
+
+        <image src="{{userHead}}" style="width:68px;height:68px;border:1px solid #ddd;float:right;margin:20rpx 20rpx;border-radius: 50%;"></image>
+        <text style ="margin:20rpx 20rpx">头像</text>
+    </view>
+
+    <!-- 列表 -->
+
+    <view class="personalList">
+        <view>用户名: {{username}}</view >
+        <view >电话: {{tel}}</view>
+        <view class="iconfont icon-message">性别:{{sex}}</view>
+        <view class="iconfont icon-text" style="border:none">个性签名:<textarea>{{written}}</textarea></view>
+
+   </view>
+
+
+</view>
+
+

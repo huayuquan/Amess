@@ -1,0 +1,43 @@
+<view class="container"> 
+<form bindsubmit='forSubmit'>
+ <view class="login-icon"> 
+ </view> 
+ <view class="login-from"> 
+<view class="write">请仔细填写以下信息</view>
+ <!--学校--> 
+ <view class="inputView"> 
+  <label class="loginLab">姓名</label> 
+  <input class="inputText" placeholder="请填写真实姓名" name='name' /> 
+ </view> 
+ <view class="line"></view> 
+ <!--学号-->
+ <view class="inputView"> 
+  <label class="loginLab">学号</label> 
+  <input class="inputText" placeholder="请输入学号" name='num' /> 
+ </view> 
+ <view class="line"></view>
+ <!--手机号-->
+ <view class="inputView"> 
+  <label class="loginLab">手机号</label> 
+  <input class="inputText" placeholder="可不填" name='tel' /> 
+ </view> 
+ <view class="line"></view>
+  
+ <!--密码-->
+ <view class="inputView"> 
+  <label class="loginLab">性别</label> 
+  <input class="inputText" placeholder="可不填" name='sex' /> 
+ </view>
+ <view class="inputView"> 
+  <label class="loginLab">个签</label> 
+  <input class="inputText" placeholder="可不填" name='written' /> 
+ </view>
+ <!--按钮-->
+ <view class="loginBtnView"> 
+  <button form-type='submit' class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}">注册</button> 
+ </view> 
+ </view> 
+</form>
+
+
+</view>

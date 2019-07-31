@@ -1,0 +1,18 @@
+<view wx:for="{{paper}}" wx:for-index='x'>
+<view bindtap='confirm' id='{{x}}' class='paper'>{{item}}</view>
+</view>
+
+<button bindtap='click'>查看题库</button>
+<button bindtap='back'>撤回当前试卷</button>
+<button bindtap='gets'>查看答题情况</button>
+
+<view class='main' wx:for="{{answer}}" wx:for-index='x'>
+    <view class='row'>
+        <view class='im'>
+            <image src="../../images/seat.png"></image>
+        </view>
+        <view class='text'>
+            {{item}}
+        </view>
+    </view>
+</view>

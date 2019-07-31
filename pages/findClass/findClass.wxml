@@ -1,0 +1,34 @@
+<view class="mcontainer">
+    <form bindsubmit='forSubmit'>
+      <view class="item">
+          
+        <view class="login-item">
+                
+          <view class="login-item-info">教室编号</view>
+                
+          <view><input name='username' bindinput='usernameInput'/></view>
+          
+        </view>
+          
+
+		<view class="login-item bottom">
+            
+		<button class="login-btn" form-type='submit'>查找</button>
+       
+		</view>
+
+    
+		<view class="item bottom-info">
+       
+		<view class="wechat-icon">  
+		</view>
+    <text>
+    须知：仅输入教师提供的班级编号即可，如“1”或“2”等。
+    </text>
+	</view>
+
+  </view>
+
+</form>
+
+</view>

@@ -1,0 +1,43 @@
+<!--pages/director2/director2.wxml-->
+<view>
+<text class="large">Amess使用指南（教师身份）</text>
+</view>
+<view>
+<text class="one" >Amess是帮助老师管理课堂签到、答疑和掌握学生情况的应用，在这里，您需要创建课堂，更便于您与学生互动，这也是辅助您教学的一个好帮手哦！</text>
+</view>
+<view>
+<text class="two">首先点击“个人中心”，找到我的功能</text>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/aa.png"/>
+</view>
+<view>
+<text class="three">点击“创建新班级”，创建相应的班级</text>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/功能.png"/>
+</view>
+<view>
+<text>点击进入班级，可以对各班级进行管理</text>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/bb.png"/>
+</view>
+<view>
+<text>点击座位信息，可以查看学生选座情况</text>
+
+</view>
+<view>
+<text>点击查看题库，可以查看题库中所储存的题</text>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/cc.png"/>
+</view>
+<view>
+<text>点击查看答题情况，可以查看学生做题情况</text>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/dd.png"/>
+</view>
+<view>
+<text>点击“学生申请”，可以选择学生进入班级</text>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/ff.png"/>
+</view>
+<view>
+<text>点击“教师定位”，通过点击“签到情况”，查看学生签到成功情况</text>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/gg.png"/>
+</view>
+<view>
+<text>点击“退出”，取消定位</text>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/qq.png"/>
+</view>

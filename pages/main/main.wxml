@@ -1,0 +1,44 @@
+
+<scroll-view class="box" scroll-y="true" style="height:1200rpx" lower-threshold="50" scroll-top="{{scrolltop}}">
+
+  
+ <!--<view class="top_cc"> -->
+    <!--右上角发布小图标-->
+    <view class="top-right" bindtap="bindAdd" bindtap="scrollHandle" animation="{{animationData1}}" >
+      <image class="baseimg" src="../../image/add.png" mode="scaleToFill" catchtap="bindAdd"></image>
+    </view>
+    <!--左上角地理位置小图标-->
+    <view class="top-left" bindtap="scrollHandle" animation="{{animationData2}}">
+      <image class="baseimg" src="/image/ditu.png" mode="scaleToFill" catchtap="locationWb"></image>
+    </view>
+<!--</view>  -->
+
+  <!--背景小图标-->
+  <view class="bg">
+      <image class="baseimg" src="../../image/bg.jpg" mode="scaleToFill" bindtap="chooseImg"></image>
+  </view>
+  <!--背景图底部大头像-->
+  <view class="headimg">
+      <image class="baseimg" src="{{userInfo['avatarUrl']}}" mode="scaleToFill"></image>
+  </view>
+  <!--背景图底部昵称-->
+  <view class="nickname">
+    <text>{{userInfo['nickName']}}</text>
+  </view>
+  <!--占位行-->
+  <view class="lie"></view>
+
+
+<!--循环展示-->
+
+<view class='main' wx:for="{{array}}">
+    <view class='row'>
+        <view class='im'>
+            <image src="../../image/s.png"></image>
+        </view>
+        <view class='text'>
+            <text>{{item}}</text>
+        </view>
+    </view>
+</view>
+</scroll-view>

@@ -1,0 +1,12 @@
+/* pages/director1/director1.wxss */
+Page{
+  font-size: 15px;
+  font-family: 宋体
+}
+.large{
+  font-size: 20px;
+  
+}
+.one{
+  font-size: 15px;
+}

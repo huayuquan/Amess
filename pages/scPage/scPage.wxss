@@ -1,0 +1,30 @@
+/* pages/scPage/scPage.wxss */
+.ts{
+  margin-top: 60%
+}
+.s{
+  margin-top: 50px;
+}
+.row{
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  display: flex;
+}
+.im{
+  width: 50px;
+  height: 50px;
+  border: 1px solid #33FFFF;
+}
+image{
+  width: 100%;
+  height: 50px;
+}
+.text{
+  width: 200px;
+  height: 50px;
+  border: 1px solid #33FFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

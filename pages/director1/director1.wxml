@@ -1,0 +1,41 @@
+<!--pages/director1/director1.wxml-->
+<view>
+<text class="large">Amess使用指南（学生身份）</text>
+</view>
+<view>
+<text class="one" >Amess是帮助老师管理课堂签到和了解学生掌握情况的应用，在这里，你可以加入老师创建的课堂，和老师更多的互动，这也是帮助你学习的一个好帮手哦！</text>
+</view>
+
+<text class="two">首先点击“个人中心”，找到我的功能</text>
+<view>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/one.png"/>
+</view>
+<view>
+<text class="three">选择相应的班级(比如是1号班级)</text>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/two.png"/>
+</view>
+<view>
+<text>点击进入班级可以选择座位</text>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/three.png"/>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/four.png"/>
+</view>
+<view>
+<text>点击GET可以得到老师课堂上发布的试卷</text>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/five.png"/>
+</view>
+<view>
+<text>选择后可以提交你的答案</text>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/six.png"/>
+</view>
+<view>
+<text>提交后你可以得到你答题情况</text>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/eigh.png"/>
+</view>
+<view>
+<text>点击签到会发生什么呢？</text>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/nine.png"/>
+</view>
+<view>
+<text>哇！知道自己的定位了，是不是很神奇呢！</text>
+<image style="width: 200px; height: 200px; background-color: #eeeeee;" mode='scaleToFill'  src="/image/ten.png"/>
+</view>

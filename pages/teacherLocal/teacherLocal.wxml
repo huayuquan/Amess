@@ -1,0 +1,44 @@
+<view class="mcontainer">
+    <view class='row' bindtap='local'>
+      <view class='im'>
+        <image src="../../images/teacher.png"></image>
+      </view>
+      <view class='text'>
+        教师定位
+      </view>
+    </view>
+
+    <view class='row' bindtap='result'>
+      <view class='im'>
+        <image src="../../images/here.png"></image>
+      </view>
+      <view class='text'>
+        签到情况
+      </view>
+    </view>
+
+    <view class='row' bindtap='exit'>
+      <view class='im'>
+        <image src="../../images/fly.png"></image>
+      </view>
+      <view class='text'>
+        退出
+      </view>
+    </view>
+
+    <text>
+    签到状态为“1”表示正常
+    签到状态为“0”，请教师确认是否到场，如软件错误，请稍后通知管理者。
+    </text>
+
+    <view class='main' wx:for="{{state}}" wx:for-index='x'>
+    <view class='row'>
+        <view class='im'>
+            <image src="../../images/seat.png"></image>
+        </view>
+        <view class='text'>
+            {{item}}
+        </view>
+    </view>
+</view>
+</view>

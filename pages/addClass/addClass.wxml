@@ -1,0 +1,46 @@
+<view class="mcontainer">
+    <form bindsubmit='forSubmit'>
+      <view class="item">
+          
+        <view class="login-item">
+                
+          <view class="login-item-info">教室名称</view>
+                
+          <view><input name='username' bindinput='usernameInput'/></view>
+          
+        </view>
+          
+        <view class="login-item">
+                
+          <view class="login-item-info">教室布局</view>
+                
+          <view class="login-pwd">
+                
+            <input name='password' style="flex-grow:1"/> 
+                
+            
+          </view>    
+                
+        </view>
+
+		<view class="login-item bottom">
+            
+		<button class="login-btn" form-type='submit'>创建</button>
+       
+		</view>
+
+    
+		<view class="item bottom-info">
+       
+		<view class="wechat-icon">  
+		</view>
+    <text> 教室名称建议简洁明了，如“xx教师x班”，让学生容易理解（期间不要输入空格）。当然如与同学约好，起的“地表最强”也是无关紧要的啦！
+    教室布局内容为教室的行列，中间用空格隔开，比如六行八列，输入内容为“6 8”。 
+    </text>
+	</view>
+
+  </view>
+
+</form>
+
+</view>

@@ -1,0 +1,14 @@
+<view class="room">
+
+    <view class='row'>
+      <view class='bb' bindtap='use'>Blackboard</view>
+    </view>
+
+    <view wx:for="{{color}}" wx:for-index='x' wx:for-item="r" class='row'>
+    <icon wx:for="{{r}}" wx:for-index='y' wx:for-item="c" type='success' class='clu' bindtap='click' id='{{x*clo+y}}' color='{{c}}'></icon>
+    </view>
+
+</view>
+<view class='leave'>
+          <button size='mini' type='primary' bindtap='leave'>离开</button>
+</view>

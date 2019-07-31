@@ -1,0 +1,33 @@
+  <view class='first'>
+
+    <view class='second' id='swi'>
+              <swiper indicator-dots="{{indicatorDots}}"
+          autoplay="{{autoplay}}" interval="2000" duration="1000">
+          <block wx:for="{{imgUrls}}">
+            <swiper-item>
+            <image src="{{item}}" class="slide-image" width="750rpx" height="500px"/>
+            </swiper-item>
+          </block>
+        </swiper>
+    </view>
+    <view style="display:flex; justify-content:center; align-items:center;">
+      感谢使用Amess!
+    </view>
+  <cover-view class="icon1" style='border:2px solid #000;'>
+
+      <cover-image class="itema" bindtap="director1" src="/image/z1.png"/>
+      
+ </cover-view>
+ ----------------------------------------------
+ ----------------------------------------------
+ <cover-view class="icon2" style='border:2px solid #000;'>
+ 
+   <cover-image class="itemb" bindtap="director2" src="/image/z2.png"/>
+
+ </cover-view>
+</view>
+ 
+
+
+
+

@@ -1,0 +1,27 @@
+/* pages/classmode/class.wxss */
+/* pages/text/text.wxss */
+.room{
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 100rpx;
+
+}
+.clu{
+  margin-top: 30rpx;
+}
+.row{
+  height: 50px;
+  border: 1px solid #f00;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+}
+.bb{
+  height: 30px;
+  border: 1px solid #000;
+  margin: 10px;
+}
+.leave{
+  display: flex;
+  justify-content: right;
+}

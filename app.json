@@ -1,0 +1,74 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/main/main",
+    "pages/homepage/homepage",
+    
+    "pages/aaaaaa/aaaaaa",
+    
+    "pages/director1/director1",
+    "pages/editPerson/editPerson",
+    "pages/teacherLocal/teacherLocal",
+    "pages/scPage/scPage",
+    "pages/addStudent/addStudent",
+    "pages/findClass/findClass",
+    "pages/studentClass/studentClass",
+    "pages/inClass/inClass",
+    "pages/addClass/addClass",
+    "pages/addEdit/addEdit",
+    "pages/teacherClass/teacherClass",
+    "pages/addTeacher/addTeacher",
+    "pages/tLogin/tLogin",
+    "pages/sLogin/sLogin",
+    "pages/cLogin/cLogin",
+    "pages/Pmessage/Pmessage",
+    "pages/ypersonal/ypersonal",
+    
+    "pages/search/search",
+    "pages/homeworktype/homeworktype",
+    "pages/sregister/sregister",
+    "pages/result/result",
+    "pages/haha/haha",
+    "pages/file/file",
+    "pages/classmode/class",
+
+    "pages/addComment/addComment",
+    "pages/addPingLun/addPingLun",
+    "pages/address/address",
+    "pages/studentClass",
+    
+    "pages/director2/director2"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#ffffff",
+    "navigationBarBackgroundColor": "#00FFFF",
+    "navigationBarTitleText": "wechat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFB6C1",
+    "color": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/homepage/homepage",
+        "text": "首页",
+        "iconPath": "image/s.png",
+        "selectedIconPath": "image/s2.png"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "消息",
+        "iconPath": "image/x.png",
+        "selectedIconPath": "image/x2.png"
+      },
+      {
+        "pagePath": "pages/ypersonal/ypersonal",
+        "text": "个人中心",
+        "iconPath": "image/g.png",
+        "selectedIconPath": "image/g2.png"
+      }
+    ]
+  }
+}
